@@ -2,7 +2,7 @@
 build
 gitbush
 другое
-nodu_modules
+node_modules
 npm-debug.log
 
 #Windows image file cachers
