@@ -1,7 +1,7 @@
 .contact__top {
   padding-top: 100px;
   padding-bottom: 180px;
-  background: url("source/images/ContactBackground.png") center no-repeat;
+  background: url("../../images/ContactBackground.png") center no-repeat;
   background-size: cover;
   position: relative;
   .section__title {
@@ -60,4 +60,7 @@
   align-items: center;
 
   margin: 15px;
+}
+.contact{
+  margin-top: 200px;
 }
