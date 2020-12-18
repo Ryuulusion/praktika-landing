@@ -1,3 +1,17 @@
-body {
-  background: peachpuff;
-}
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+@import "../../../node_modules/normalize.scss/normalize";
+
+@import "fonts";
+@import "vars";
+@import "base";
+@import "common";
+@import "sprite";
+
+@import "../sections/header";
+@import "../sections/packs";
+@import "../sections/about";
+@import "../sections/testimonials";
+@import "../sections/features";
+@import "../sections/travelblog";
+@import "../sections/contact";
+@import "../sections/footer";

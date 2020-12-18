@@ -1,0 +1,12 @@
+.footer {
+  background: #cd0a2d;
+  padding: 60px 0;
+  color: #fff;
+  text-align: center;
+  p {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

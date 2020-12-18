@@ -1,0 +1,63 @@
+.contact__top {
+  padding-top: 100px;
+  padding-bottom: 180px;
+  background: url("source/images/ContactBackground.png") center no-repeat;
+  background-size: cover;
+  position: relative;
+  .section__title {
+    color: #fff;
+  }
+  .section__text {
+    color: #fff;
+  }
+}
+
+.contact__img {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact__bottom {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.contact__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.contact__item {
+  padding: 20px 80px;
+  display: flex;
+  color: #000;
+}
+.contact__email {
+  margin-right: 10px;
+}
+.contact__phone{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contact__address{
+  margin-left: 10px;
+}
+.contact__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact__social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contact__link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 15px;
+}

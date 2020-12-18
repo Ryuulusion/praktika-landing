@@ -1,0 +1,53 @@
+.travel {
+  padding-top: 145px;
+  padding-bottom: 50px;
+  .travel__price-text {
+    font-size: 36px;
+    span {
+      font-size: 22px;
+    }
+  }
+  .section__text {
+    margin-bottom: 30px;
+  }
+}
+
+.travel__asia{
+  height: 368px;
+  width: 383px;
+  padding-right: 10px;
+}
+
+.travel__usa{
+  height: 368px;
+  width: 384px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.travel__brazil{
+  height: 370px;
+  width: 384px;
+  padding-left: 10px;
+}
+
+.travel__header{
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.travel__inner{
+  justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.travel__title{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-family: $ff-trv sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #202020;
+  max-width: 340px;
+}

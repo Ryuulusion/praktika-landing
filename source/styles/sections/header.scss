@@ -1,4 +1,60 @@
-.header__top{
+.background__picture{
+  background: url("../../images/HeaderBackground.png") top/cover no-repeat;
+  height: 1372px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.header__logo {
+  padding-top: 16px;
+  padding-left: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__content {
+  max-width: 1700px;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.nav__link{
+  padding: 17.5px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+}
+.header__icon {
+  display: flex;
+  align-items: center;
+
+}
+
+.link__icon {
+  display: inline-flex;
+  height: 46px;
+  width: 46px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 43px;
+  img {
+    display: block;
+    max-width: 47px;
+  }
+}
+
+.logo-pc {
+  display: block;
+}
+.logo-mob {
+  display: none;
 }
